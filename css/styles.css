@@ -1,0 +1,129 @@
+* ul  {
+  list-style-type: none;
+  text-align: center;
+}
+* div {
+text-align: center;
+
+}
+body {
+  background-color: #fafafa;
+}
+/* header */
+
+header {
+  background-color: #f5f5f5;
+  text-align: center;
+  display: block;
+}
+
+header ul {
+  margin:0;
+  padding:0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#main_watch {
+  border-color: black;
+  border: solid;
+  border-width: thin;
+}
+
+.glass {
+color: white;
+background-color: green;
+border: solid 1px;
+border-color: black;
+}
+
+.th {
+  color: grey;
+}
+
+.smaller-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+
+/* article */
+
+h3 {
+  color: #696969;
+  text-align: center;
+}
+
+section li {
+  font-size: 12px;
+  font-family: fantasy;
+  padding: 10px;
+  display: inline-block;
+
+}
+#timepiece {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.kristy {
+  width: 75px;
+  margin: 30px 10px 5px 30px;
+  border-radius: 50%;
+}
+
+h2 {
+  margin: 30px 20px 5px 15px;
+  font-size: 16px;
+  font-family: fantasy;
+}
+/* footer */
+  h5 {
+    color: #d3d3d3;
+  }
+  span {
+    color: #696969;
+  }
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+#white {
+  background-color: white;
+  border-color: black;
+  border-radius: 50%;
+}
+#black {
+  background-color: black;
+}
+#blue {
+  background-color: blue;
+}
+#red {
+  background-color: red;
+}
+#orange {
+  background-color: orange;
+}
+#seafoam {
+    background-color: #48D1CC;
+}
+#follow {
+  color:green;
+}
+
+.row {
+  margin-left:auto;
+  margin-right: auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+}
